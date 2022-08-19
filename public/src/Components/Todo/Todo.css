@@ -1,0 +1,48 @@
+.todo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 70px;
+    border: 2px solid #444444;
+    background-color: #444444;
+    padding: 5px 20px;
+}
+
+.enter-task>h2,
+.enter-task>p {
+    margin: 0;
+}
+
+.enter-task>h2 {
+    color: #ff9900;
+}
+
+.enter-task>p {
+    text-align: left;
+}
+
+.btn {
+    width: 100px;
+    margin: 10px;
+    border-radius: 50px;
+    padding: 8px 10px;
+    font-family: 'Kalam';
+}
+
+.complete {
+    border: 2px solid #4bb48c;
+    color: #4bb48c;
+}
+
+.delete {
+    border: 2px solid #d4384f;
+    color: #d4384f;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.notCompleted {
+    text-decoration: none;
+}
